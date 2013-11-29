@@ -21,25 +21,22 @@
 		// Method find_by_sql
 		public function find_by_sql($sql)
 		{
-			// global zorgt ervoor dat $database ook binnen de haakjes
-			// van de find_by_sql method bekent is.	
+			// global zorgt ervoor dat $database ook binnen de haakjes van de find_by_sql method bekent is.	
 			global $database;
 			
 			//Roep de fire_query method aan met het $database object
 			$result = $database->fire_query($sql);
 			
-			// Hier wordt een array gedefinieerd. Dit array gaat
-			// LoginClass-objecten bevatten.
+			// Hier wordt een array gedefinieerd. Dit array gaat LoginClass-objecten bevatten.
 			$object_array = array();
 			
-			// Met deze while-lus vullen we het $object-array met LoginClass-objecten
+			// doormiddel van deze while fullen we de object array met loginclass objecten
 			while ($row = mysql_fetch_array($result))
 			{
-				//Maak een nieuw LoginClass-object aan per while ronde	
+				//maakt elke while een nieuwe loginclass aan
 				$object = LoginClass();
 				
-				//Vul de velden van het LoginClass-object met de gevonden record-
-				//waarden uit de tabel
+				//Vul de velden van het LoginClass-object met de gevonden record-waarden uit de tabel
 				$this->login_id	= $row['login_id'];
 				$this->email	= $row['email'];
 				$this->password	= $row['password'];

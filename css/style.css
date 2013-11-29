@@ -1,99 +1,118 @@
-*
-{
-	margin:0px;
-	padding:0px;
-}
-
 body
 {
-	font-family:Comic Sans MS;
-	background-color:RGB(180, 180, 1800);
-	color:white;
-	font-size:1.0em;
-	border:0px solid red;
-	margin:10px;
-	background-color:grey;
+	font-family:arial;
+	background-color:#0fb3c2;
+	color.white;
+	font-size:1em;
+	border: 0px solid red; 
+	margin: 0px;
+	padding: 0em;
 }
 
 html
 {
-	border:0px solid green;
+border: 0px solid blue;
+padding: 0em;
 }
-
 div#container
 {
-	background-color:grey;
-	width:745px;
-	margin:20px auto;	
-	border-radius:25px;
+	background-color:transparent;
+	width:950px;
+	margin: 10px auto;
+	border-radius:35px;
+	border: 7px solid white; 
+	
 }
-
 div#banner
-{	
-	background-color:orange;
-	background-image:url(../images/jumbo-banner.jpg);
-	background-repeat:no-repeat;
-	height:170px;
-	border-radius:25px;
-}
+{
+	background-color:#ed1e24;
+	background-image:url('../images/banner.png');
+	background-repeat: no-repeat;
+	height:120px;
+	width:950px;
+	margin: 0px auto;
+	border-top-left-radius:27px;
+	border-top-right-radius:27px;
+} 
 
+ 
 div#content
 {
-	font-size:0.8em;
-	min-height:300px;
-	margin:20px 0px;
-	padding:0px 20px;	
-	position:relative;
-	border:1px solid white;
-}
-
-div#footer
-{
-	background-color:orange;
+	background-color:white;
+	min-height:600px;
+	padding: 0px auto;
+	margin: 0PX;
+	font-size: 1.5em;
 	text-align:center;
-}
-
+	font-color:purple;
+	position: relative;
+	
+	
+} 
 div#link
 {
-	position:absolute;
-	top:0px;
-	left:-120px;
-	background-color:grey;
-	width:170;
-	height:200px;
-	border-radius:25px;
-	padding:0.8em;
-	min-width:95px;
+	background-color:#ed1e24;
+	text-align:center;
+	width: 0px auto;
+	height: 30px;
+	font-size: 0.5m;
+	margin:0px;
+	padding:0px;
 }
-
-div#link li
+div#footer
 {
-	text-align:right;
-}
+	background-color:#ddd;
+	text-align:center;
+	width:950px;
+	height: 0px auto;
+	margin: 0px auto;
+	border-bottom-left-radius:27px;
+	border-bottom-right-radius:27px;
+
+	font-size: 1.2em;
+} 
+
+
 
 a
 {
-	color:white;
-	text-decoration:none;
+color:white;
+text-decoration:none;
+font-size: 1em;
+font: sans-serif;
 }
-
 div#link ul
 {
-	list-style-type:none;
+list-style-type: none;
+margin: 0px;
+}
+div#klantgegevens
+{
+font-size: 0.55em;
+
 }
 
-table.simple
+table.simple 
 {
-	background-color:RGBA(150, 150, 150, 1);
-	border-collapse:collapse;
-	border:2px solid white;
-	margin:0px auto;
+        
+		border-collapse:collapse;
+        margin:0px auto;        
+}
+table.simple caption
+{
+        background-color:black;
+		color:white;
 }
 
-table.simple td, th
+table.simple  th, td
 {
-	padding:1em;
-	border:1px solid white;
+
+        text-align:left;
+        padding:0.5em;
+		font-size:0.7em;
+        background-color:RGB(255,255,255);
+        color:black;
 }
+
 
 
