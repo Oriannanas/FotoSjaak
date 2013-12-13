@@ -1,5 +1,6 @@
 <?php
         require_once("class/LoginClass.php");
+		require_once("class/SessionClass.php");
 
         // Check of de loginformulier velden wel zijn ingevuld
         if (!empty($_POST['email']) && !empty($_POST['password']))
@@ -36,7 +37,13 @@
                                         break;
                                 case 'root':
                                         header("location:index.php?content=root_homepage");
-                                        break;                        
+                                        break; 
+								case 'developer':
+									header("location:index.php?content=developer_homepage");
+									break;  
+                    			case 'photographer':
+									header("location:index.php?content=photographer_homepage");
+									break;  
                         }                
                 }
                 else

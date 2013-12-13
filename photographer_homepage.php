@@ -1,5 +1,5 @@
 <?php
-        $userrole = array('root', 'admin');
+        $userrole = array('root', 'photographer');
         include('security.php');
 		include("connect_db.php");
                 $query = "SELECT *
@@ -7,7 +7,7 @@
                                   WHERE `id` = '".$_SESSION['id']."'";
 				$result = mysql_query($query, $db);
 ?>
-<h3>Welkom op uw adminpagina</h3>
+<h3>Welkom op uw photographerpagina</h3>
 uw id is: <?php echo $_SESSION['id']; ?><br>
 uw gebruikersrol is: <?php echo $_SESSION['userrole']; ?>
 
