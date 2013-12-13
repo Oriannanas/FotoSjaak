@@ -5,13 +5,8 @@
         }
         else
         {
-				if (isset($_SESSION['userrole']))
-				{
-					include("".$_SESSION['userrole']."_homepage.php");
-				}
-				else
-				{
+				
 					include("homepage.php");
-				}
+		
         }
 ?>

@@ -42,12 +42,7 @@
 						<td><input type="radio" name="gender" value = "male" required/> Man 
 						<input type="radio" name="gender" value = "female" required/> Vrouw		</td>			
 					</tr>
-					<tr>
-					<td>Burgerlijke staat: </td>
-			
-						<td><input type="radio" name="maritalstate" value='married' required/>	Getrouwd 
-						<input type="radio" name="maritalstate" value='not married' required/> 	Niet getrouwd </td>
-					</tr>
+					
 					<tr>
 					<td>e-mail adres: </td>
 				

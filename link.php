@@ -57,7 +57,7 @@ echo "
 										
 										
 	
-		<a href='./index.php?content=class/LoginClass'>test login-class</a>
+		<a href='./index.php?content=class/loginClass-test'>test login-class</a>
 	
                                   ";
                 }
