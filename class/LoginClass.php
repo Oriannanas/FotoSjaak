@@ -9,7 +9,7 @@
                 private $email;
                 private $password;
                 private $userrole;
-                private $isactivated;
+                private $activated;
                 private $registerdate;
                 
                 //Properties
@@ -18,7 +18,7 @@
                 public function getEmail() { return $this->email; }
                 public function getPassword() { return $this->password; }
                 public function getUserrole() { return $this->userrole; }
-                public function getIsactivated() { return $this->isactivated; }
+                public function getActivated() { return $this->activated; }
                 public function getRegisterdate() { return $this->registerdate; }
                 
                 // De constructor van de LoginClass
@@ -53,7 +53,7 @@
                                 $object->email                        = $row['email'];
                                 $object->password                = $row['password'];
                                 $object->userrole                 = $row['userrole'];
-                                $object->isactivated        = $row['isactivated'];
+                                $object->activated        = $row['activated'];
                                 $object->registerdate        = $row['registerdate'];
                                 
                                 //Stop het $object gemaakt van de LoginClass

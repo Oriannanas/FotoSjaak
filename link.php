@@ -42,7 +42,7 @@
                                 break;
                         }  
 echo "						
-                        <a href='./index.php?content=logout.php'>Uitloggen</a>
+                        <a href='./index.php?content=logout'>Uitloggen</a>
 						";
                 }
                 else
@@ -57,7 +57,7 @@ echo "
 										
 										
 	
-		<a href='./index.php?content=class/loginClass-test'>test login-class</a>
+		<a href='./index.php?content=loginClass-Test'>loginClass-test</a>
 	
                                   ";
                 }

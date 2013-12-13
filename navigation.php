@@ -5,8 +5,6 @@
         }
         else
         {
-				
-					include("homepage.php");
-		
+                include("homepage.php");
         }
 ?>

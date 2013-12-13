@@ -12,7 +12,7 @@
                          $value->getEmail()." | ".
                          $value->getPassword()." | ".
                          $value->getUserrole()." | ".
-                         $value->getIsactivated()." | ".
+                         $value->getActivated()." | ".
                          $value->getRegisterdate()."<br>";                
         }
 ?>
