@@ -1,4 +1,5 @@
 <?php 
+	//Hallo dit is een test
 	if ( !is_numeric($_POST["getal1"]) || !is_numeric($_POST["getal2"]))
 	{
 		echo "Een van de ingevoerde getallen is niet een getal";
